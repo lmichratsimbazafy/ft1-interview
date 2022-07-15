@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-SemiBold.ttf");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,60 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* .BrainhubCarouselItem{
+    margin-right: 12px !important;
+    margin-left: 12px !important;
+    width: 200px !important;
+    max-width: 306px;
+    min-width: 200px !important;
+} */
+
+
+.BrainhubCarousel__container {
+  width: 71% !important;
+  overflow: hidden;
+}
+
+
+.BrainhubCarousel__arrows {
+  background-color: #313132 !important;
+}
+
+.BrainhubCarousel__arrows:disabled {
+  background-color: #ccc !important;
+}
+
+.title{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+}
+
+.plus{
+  width: fit-content;
+  position: absolute;
+  bottom: 58px;
+  right: 8px;
+}
+
+
+.plusContainer{
+  background-color: #000000B2;
+  /* border-radius: 0px; */
+  padding: 4px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.carousel-container{
+  padding: 240px 0 0 109px;
+}
+
+.carousel-image{
+  border-radius: 8px;
 }
